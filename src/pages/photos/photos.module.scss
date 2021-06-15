@@ -1,0 +1,46 @@
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* relevant styles */
+  .img_wrap {
+    width: auto;
+    height: auto;
+    position: relative;
+
+    .photo {
+      margin: 30px;
+    }
+
+    .img_description {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding-left: 6%;
+      color: white;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #000;
+      font-size: 3em;
+      visibility: hidden;
+      opacity: 0;
+
+      /* transition effect. not necessary */
+      transition: opacity 0.2s, visibility 0.2s;
+    }
+  }
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  font-size: 3em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
