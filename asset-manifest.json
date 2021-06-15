@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nadaletsgram/static/css/main.cd2aa2d5.chunk.css",
-    "main.js": "/nadaletsgram/static/js/main.9f9c5996.chunk.js",
-    "main.js.map": "/nadaletsgram/static/js/main.9f9c5996.chunk.js.map",
+    "main.js": "/nadaletsgram/static/js/main.900fda2a.chunk.js",
+    "main.js.map": "/nadaletsgram/static/js/main.900fda2a.chunk.js.map",
     "runtime-main.js": "/nadaletsgram/static/js/runtime-main.595d8dff.js",
     "runtime-main.js.map": "/nadaletsgram/static/js/runtime-main.595d8dff.js.map",
     "static/js/2.28a46ee9.chunk.js": "/nadaletsgram/static/js/2.28a46ee9.chunk.js",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.595d8dff.js",
     "static/js/2.28a46ee9.chunk.js",
     "static/css/main.cd2aa2d5.chunk.css",
-    "static/js/main.9f9c5996.chunk.js"
+    "static/js/main.900fda2a.chunk.js"
   ]
 }
