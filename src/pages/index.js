@@ -21,7 +21,7 @@ const App = () => {
     }
 
     const imagesFetch = ImageService.getAll()
-    const timelineDates = imagesFetch.map(name => name.default.replaceAll('/static/media/', '').replaceAll('[', '').split(']')[0])
+    const timelineDates = imagesFetch.map(name => name.default.replaceAll('/nadaletsgram/static/media/', '').replaceAll('[', '').split(']')[0])
 
     timelineDates.forEach(date => {
       const imagesByDate = imagesFetch.filter(imgs => imgs.default.includes(date))
@@ -32,7 +32,7 @@ const App = () => {
     setHistory([...new Set(timelineDates)].reverse())
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  //
+
   return (
     <>
       <div className={styles.content}>
